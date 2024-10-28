@@ -1,0 +1,40 @@
+
+  .recuadro {
+    border: 2px solid black;/* Borde del recuadro */
+    border-radius: 10px;/* Bordes redondeados */
+    padding: 5px; /* Espacio interior */
+    margin: 10px; /* Espacio exterior */
+    width: 5cm; /* Ancho del recuadro */
+    height: 10cm; /* Alto del recuadro */
+    display: flex; /* Usar flexbox para alinear los elementos */
+    flex-direction: column; /* Alinear elementos en columna */
+    align-items: center; /* Alinear los elementos en el centro */
+    position: absolute; /* Posicionamiento absoluto */
+    left: 0; /* Alinear a la izquierda */
+    gap: 0; /* Sin espacio automático entre hijos */
+  }
+  
+  .inventario {
+    margin-left: 6cm; /* Espacio de 3 cm entre el recuadro y la etiqueta */
+    font-size: 1; /* Opcional: aumentar el tamaño de la fuente */
+  }
+  
+  .segunda-recuadro {
+    margin-left: 6cm; /* Espacio de 5 cm a la izquierda del segundo recuadro */  
+  }
+  
+
+  .segunda-recuadro h1{
+    color: green;
+    font-size: 2em;
+}
+.segunda-recuadro h2{
+    color: blue;
+    font-size: 11px;
+}
+
+  .segunda-recuadro > * {
+    margin: 5px 0; /* Espacio controlado entre elementos dentro del recuadro */
+  }
+  
+  
